@@ -1,5 +1,7 @@
-# Linux Incident Response
 
+# Incident Response Linux 
+
+## Overview
 This repository contains a comprehensive cheatsheet for incident response and live forensics in Linux environments. It's designed to help system administrators, security professionals, and IT staff quickly reference commands and procedures during an incident.
 
 ## How to Use
@@ -73,3 +75,30 @@ Commands for reviewing network configurations and connections.
 
 ## Contribution
 Contributions to this cheatsheet are welcome. Please submit a pull request or open an issue for suggestions.
+
+## License
+[Specify License Here]
+
+### Additional Commands
+
+- `grep :0: /etc/passwd` - Find root accounts.
+- `find / -nouser -print` - Find files with no user.
+- `cat /etc/shadow` - View encrypted passwords and account expiration information.
+- `cat /etc/group` - View group information.
+- `cat /etc/sudoers` - View sudoers file.
+- `tail /var/log/auth.log` - View the last few entries in the authentication log.
+- `history | less` - View command history.
+- `cat /proc/meminfo` - Display memory information.
+- `cat /proc/mounts` - Display mounted filesystems.
+- `lsof -p [pid]` - List open files for a process (use a specific PID).
+- `service --status-all` - List all services and their status.
+- `cat /etc/crontab` - View the cron table for scheduled tasks.
+- `more /etc/resolv.conf` - View DNS settings.
+- `more /etc/hosts` - View host file entries.
+- `iptables -L -n` - List all iptables rules without resolving IP addresses.
+- `find /home/ -type f -size +512k -exec ls -lh {} \;` - Find files larger than 512KB in home directories.
+- `find /etc/ -readable -type f 2>/dev/null` - Find readable files in the etc directory.
+- `find / -mtime -2 -ls` - Find files modified in the last 2 days.
+- `netstat -nap` - Show network connections and associated programs.
+- `arp -a` - View the ARP table.
+- `echo $PATH` - Display the PATH environment variable.
