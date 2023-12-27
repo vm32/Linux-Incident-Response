@@ -73,14 +73,7 @@ Commands for reviewing network configurations and connections.
 - `route -n` - Show routing table.
 - `ss -tuln` - Show listening ports and established connections.
 
-## Contribution
-Contributions to this cheatsheet are welcome. Please submit a pull request or open an issue for suggestions.
-
-## License
-[Specify License Here]
-
 ### Additional Commands
-
 - `grep :0: /etc/passwd` - Find root accounts.
 - `find / -nouser -print` - Find files with no user.
 - `cat /etc/shadow` - View encrypted passwords and account expiration information.
@@ -102,3 +95,7 @@ Contributions to this cheatsheet are welcome. Please submit a pull request or op
 - `netstat -nap` - Show network connections and associated programs.
 - `arp -a` - View the ARP table.
 - `echo $PATH` - Display the PATH environment variable.
+
+## Contribution
+Contributions to this cheatsheet are welcome. Please submit a pull request or open an issue for suggestions.
+
