@@ -96,6 +96,27 @@ Commands for reviewing network configurations and connections.
 - `arp -a` - View the ARP table.
 - `echo $PATH` - Display the PATH environment variable.
 
+## Running the Script
+
+To run the Incident Response Linux script, follow these steps:
+
+1. Download the script from the repository.
+2. Give the script executable permissions:
+   ```
+   chmod +x IRLinux_Script_Updated.sh
+   ```
+3. Execute the script with appropriate permissions (root permissions may be required for some commands):
+   ```
+   sudo ./IRLinux_Script_Updated.sh
+   ```
+4. Once the script completes its execution, the output will be saved in `/tmp/IRLinux.txt`.
+5. You can view the output with a text editor or using a command like `cat` or `less`:
+   ```
+   less /tmp/IRLinux.txt
+   ```
+
+Note: Ensure that the script is run in a safe environment as it accesses system files and configurations. Modify the script as needed for your specific use case.
+
 ## Contribution
 Contributions to this cheatsheet are welcome. Please submit a pull request or open an issue for suggestions.
 
