@@ -120,6 +120,11 @@ Note: Ensure that the script is run in a safe environment as it accesses system 
 ### Output 
 ![Screenshot_49](https://github.com/vm32/Linux-Incident-Response/assets/21219411/28efc8f1-925d-4aa9-8916-259613ec0a5b)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vm32/Linux-Incident-Response&type=Date)](https://star-history.com/#vm32/Linux-Incident-Response&Date)
+
+
 
 ## Contribution
 Contributions to this cheatsheet are welcome. Please submit a pull request or open an issue for suggestions.
